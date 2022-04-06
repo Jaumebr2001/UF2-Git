@@ -32,7 +32,7 @@ public class notas {
 	
 	// metodo para comprobar bien entroduccion de notas
 	
-	public void comprobarcion(){
+	public void comprobracion(){
 		
 		if (uf1>10) {
 			System.out.println(" nota1 mal introducida");
@@ -84,7 +84,7 @@ public class notas {
 		
 	}
 
-	public void aprobado() {
+	public void Nota() {
 			
 			if(def<5 && def>=0) {
 				System.out.println("suspendio");
@@ -104,14 +104,14 @@ public class notas {
 		
 		fc.IngresaNotas();
 		
-		fc.comprobarcion();
+		fc.comprobracion();
 		
 
 		fc.Calculonotas();
 		
 		fc.MostrarNotas();
 		
-		fc.aprobado();
+		fc.Nota();
 		
 	}
 
